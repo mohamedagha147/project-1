@@ -748,6 +748,7 @@ header .container nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skills .progress .box-progres .present-progres {
