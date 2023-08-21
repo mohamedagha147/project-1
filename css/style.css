@@ -382,8 +382,12 @@ header .container nav ul li a:hover {
 }
 
 .portfolio .shuffle {
+  /* display: flex; */
+  /* justify-content: center; */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .portfolio .shuffle li a {
@@ -748,7 +752,7 @@ header .container nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
 }
 
 .skills .progress .box-progres .present-progres {
@@ -818,8 +822,8 @@ header .container nav ul li a:hover {
 .clients .icons i:first-of-type {
   position: absolute;
   bottom: 0;
-  left: 52%;
-  transform: translateX(-52%);
+  left: 55%;
+  transform: translateX(-50%);
   background-color: var(--main-color);
   padding: 10px;
   color: white;
@@ -830,8 +834,8 @@ header .container nav ul li a:hover {
 .clients .icons i:last-of-type {
   position: absolute;
   bottom: 0;
-  left: 48%;
-  transform: translateX(-48%);
+  left: 45%;
+  transform: translateX(-50%);
   background-color: var(--main-color);
   padding: 10px;
   color: white;
