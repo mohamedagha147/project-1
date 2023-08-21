@@ -613,6 +613,7 @@ header .container nav ul li a:hover {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    width: 350px;
   }
 }
 
